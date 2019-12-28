@@ -5,8 +5,7 @@ train.py contains the class and methods we need to train our network
 test.py is where we actuall put the code into practice
 
 # How to implement
-1) Create an object of the train class and pass all the required parameters (training inputs, training outputs, learning rate, epoch, activation function and input so the neural network predicts its out put
-train = train(input
+Create an object of the train class and pass all the required parameters (training inputs, training outputs, learning rate, epoch, activation function and input so the neural network predicts its output
 
 train = train(inputs=np.array([[0, 1, 0], [0, 0, 1], [1, 0, 0], [1, 1, 0], [1, 1, 1]]),
               outputs=np.array([[1, 0, 0, 1, 1]]),
